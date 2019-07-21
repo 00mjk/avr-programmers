@@ -1,4 +1,4 @@
-# Open-source avr programers
+# Open-source avr programmers
 programatory open-source dla układów AVR
 
 W drzewie katalogu:
