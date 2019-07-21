@@ -1,0 +1,391 @@
+EESchema Schematic File Version 4
+LIBS:dasa-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "dasa avr programmer"
+Date "2019-07-20"
+Rev "1.0"
+Comp "mgr inż. Paweł Sobótka"
+Comment1 "http://hackerschicken.eu/electronics/RS232_AVR_programmer.pdf"
+Comment2 "developed based on:"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:DB9_Male J1
+U 1 1 5D2BD6A6
+P 2700 3510
+F 0 "J1" H 2618 2818 50  0000 C CNN
+F 1 "DB9_Male" H 2618 2909 50  0000 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm" H 2700 3510 50  0001 C CNN
+F 3 " ~" H 2700 3510 50  0001 C CNN
+	1    2700 3510
+	-1   0    0    1   
+$EndComp
+$Comp
+L pspice:DIODE D7
+U 1 1 5D2BE741
+P 8190 3310
+F 0 "D7" H 8190 3575 50  0000 C CNN
+F 1 "1N4151" H 8190 3484 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 8190 3310 50  0001 C CNN
+F 3 "~" H 8190 3310 50  0001 C CNN
+	1    8190 3310
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:DIODE D8
+U 1 1 5D2BEA2F
+P 8190 4680
+F 0 "D8" H 8190 4945 50  0000 C CNN
+F 1 "1N4151" H 8190 4854 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 8190 4680 50  0001 C CNN
+F 3 "~" H 8190 4680 50  0001 C CNN
+	1    8190 4680
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:DIODE D1
+U 1 1 5D2BEB83
+P 4660 2670
+F 0 "D1" H 4660 2935 50  0000 C CNN
+F 1 "1N4151" H 4660 2844 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 4660 2670 50  0001 C CNN
+F 3 "~" H 4660 2670 50  0001 C CNN
+	1    4660 2670
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D3
+U 1 1 5D2BED46
+P 5120 2670
+F 0 "D3" H 5120 2935 50  0000 C CNN
+F 1 "1N4151" H 5120 2844 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 5120 2670 50  0001 C CNN
+F 3 "~" H 5120 2670 50  0001 C CNN
+	1    5120 2670
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D5
+U 1 1 5D2BEF29
+P 5510 2670
+F 0 "D5" H 5510 2935 50  0000 C CNN
+F 1 "1N4151" H 5510 2844 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 5510 2670 50  0001 C CNN
+F 3 "~" H 5510 2670 50  0001 C CNN
+	1    5510 2670
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D4
+U 1 1 5D2BF3D9
+P 5120 4910
+F 0 "D4" H 5120 5175 50  0000 C CNN
+F 1 "1N4151" H 5120 5084 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 5120 4910 50  0001 C CNN
+F 3 "~" H 5120 4910 50  0001 C CNN
+	1    5120 4910
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D2
+U 1 1 5D2BF62B
+P 4660 4910
+F 0 "D2" H 4660 5175 50  0000 C CNN
+F 1 "1N4151" H 4660 5084 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 4660 4910 50  0001 C CNN
+F 3 "~" H 4660 4910 50  0001 C CNN
+	1    4660 4910
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5D2BF93F
+P 8570 3970
+F 0 "C1" H 8688 4016 50  0000 L CNN
+F 1 "10uF/16V" H 8688 3925 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 8608 3820 50  0001 C CNN
+F 3 "~" H 8570 3970 50  0001 C CNN
+	1    8570 3970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D2BFC4E
+P 4150 3800
+F 0 "R3" V 4060 3760 50  0000 L CNN
+F 1 "3k3" V 4250 3750 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4080 3800 50  0001 C CNN
+F 3 "~" H 4150 3800 50  0001 C CNN
+	1    4150 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D2C005B
+P 4150 3510
+F 0 "R2" V 4050 3470 50  0000 L CNN
+F 1 "3k3" V 4260 3460 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4080 3510 50  0001 C CNN
+F 3 "~" H 4150 3510 50  0001 C CNN
+	1    4150 3510
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D2C0204
+P 4150 3200
+F 0 "R1" V 4050 3150 50  0000 L CNN
+F 1 "3k3" V 4250 3130 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4080 3200 50  0001 C CNN
+F 3 "~" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D2C04A0
+P 8190 3970
+F 0 "R4" H 8260 4016 50  0000 L CNN
+F 1 "100" H 8260 3925 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8120 3970 50  0001 C CNN
+F 3 "~" H 8190 3970 50  0001 C CNN
+	1    8190 3970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AVR-ISP-10 J2
+U 1 1 5D2C0906
+P 6900 3610
+F 0 "J2" H 6620 3706 50  0000 R CNN
+F 1 "AVR-ISP-10" H 6620 3615 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" V 6650 3660 50  0001 C CNN
+F 3 " ~" H 5625 3060 50  0001 C CNN
+	1    6900 3610
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8190 3510 8190 3660
+Wire Wire Line
+	3000 3510 4000 3510
+Wire Wire Line
+	4300 3510 4660 3510
+Wire Wire Line
+	3400 3610 3000 3610
+Wire Wire Line
+	3000 3710 3800 3710
+Wire Wire Line
+	3800 3710 3800 3800
+Wire Wire Line
+	3800 3800 4000 3800
+Wire Wire Line
+	4300 3800 4600 3800
+Wire Wire Line
+	4600 3800 4600 3610
+Wire Wire Line
+	4600 3610 5120 3610
+Wire Wire Line
+	3400 3410 3400 3610
+Wire Wire Line
+	3400 3410 6500 3410
+Wire Wire Line
+	3000 3410 3310 3410
+Wire Wire Line
+	3310 3410 3310 3200
+Wire Wire Line
+	3310 3200 4000 3200
+Text Label 3080 3510 0    50   ~ 0
+TxD
+Text Label 3080 3410 0    50   ~ 0
+RTS
+Text Label 3080 3710 0    50   ~ 0
+DTR
+Text Label 3080 3610 0    50   ~ 0
+CTS
+Wire Wire Line
+	4300 3200 4430 3200
+Wire Wire Line
+	5300 3200 5300 3710
+Wire Wire Line
+	5300 3710 5510 3710
+Wire Wire Line
+	4660 2870 4660 3510
+Connection ~ 4660 3510
+Wire Wire Line
+	4660 3510 6500 3510
+Wire Wire Line
+	5120 2870 5120 3610
+Connection ~ 5120 3610
+Wire Wire Line
+	5120 3610 6500 3610
+Wire Wire Line
+	5510 2870 5510 3710
+Connection ~ 5510 3710
+Wire Wire Line
+	5510 3710 6500 3710
+Wire Wire Line
+	5510 4710 5510 3710
+Wire Wire Line
+	5510 3710 5510 3700
+Wire Wire Line
+	5120 4710 5120 3610
+Wire Wire Line
+	4660 4710 4660 3510
+Wire Wire Line
+	4430 3200 4430 3010
+Wire Wire Line
+	4430 3010 3090 3010
+Wire Wire Line
+	3090 3010 3090 3210
+Wire Wire Line
+	3090 3210 3000 3210
+Connection ~ 4430 3200
+Wire Wire Line
+	4430 3200 5300 3200
+Text Label 3130 3010 0    50   ~ 0
+DSR
+Wire Wire Line
+	3000 3910 3400 3910
+Wire Wire Line
+	3400 3910 3400 5200
+Wire Wire Line
+	3400 5200 7000 5200
+Wire Wire Line
+	7000 2900 7000 3110
+Wire Wire Line
+	7000 4010 7000 5200
+Connection ~ 7000 5200
+Wire Wire Line
+	7000 5200 8190 5200
+Wire Wire Line
+	8190 4880 8190 5200
+Connection ~ 8190 5200
+Wire Wire Line
+	8190 3110 8190 2900
+Connection ~ 8190 2900
+Wire Wire Line
+	8190 2900 7000 2900
+Wire Wire Line
+	8570 3820 8570 3660
+Wire Wire Line
+	8570 3660 8190 3660
+Connection ~ 8190 3660
+Wire Wire Line
+	8190 3660 8190 3820
+Wire Wire Line
+	4660 2470 4660 2290
+Wire Wire Line
+	4660 2290 5120 2290
+Wire Wire Line
+	7830 2290 7830 3660
+Wire Wire Line
+	7830 3660 8190 3660
+Wire Wire Line
+	5120 2470 5120 2290
+Connection ~ 5120 2290
+Wire Wire Line
+	5120 2290 5510 2290
+Wire Wire Line
+	5510 2470 5510 2290
+Connection ~ 5510 2290
+Wire Wire Line
+	5510 2290 7830 2290
+Wire Wire Line
+	8570 4120 8570 4350
+Wire Wire Line
+	8570 4350 8190 4350
+Wire Wire Line
+	8190 4350 7500 4350
+Wire Wire Line
+	7500 4350 7500 5420
+Wire Wire Line
+	7500 5420 5510 5420
+Wire Wire Line
+	4660 5420 4660 5110
+Wire Wire Line
+	5120 5110 5120 5420
+Connection ~ 5120 5420
+Wire Wire Line
+	5120 5420 4660 5420
+Wire Wire Line
+	5510 5110 5510 5420
+Connection ~ 5510 5420
+Wire Wire Line
+	5510 5420 5120 5420
+NoConn ~ 3000 3810
+NoConn ~ 3000 3310
+NoConn ~ 3000 3110
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D38305A
+P 8810 2900
+F 0 "#FLG0101" H 8810 2975 50  0001 C CNN
+F 1 "PWR_FLAG" H 8810 3073 50  0000 C CNN
+F 2 "" H 8810 2900 50  0001 C CNN
+F 3 "~" H 8810 2900 50  0001 C CNN
+	1    8810 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 8810 2900
+Wire Wire Line
+	8810 2900 8190 2900
+$Comp
+L Connector:Conn_Coaxial_Power J3
+U 1 1 5D38C08D
+P 10000 3800
+F 0 "J3" H 10088 3796 50  0000 L CNN
+F 1 "+5V" H 10088 3705 50  0000 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 10000 3750 50  0001 C CNN
+F 3 "~" H 10000 3750 50  0001 C CNN
+	1    10000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 3700 10000 2900
+Wire Wire Line
+	8810 2900 10000 2900
+Wire Wire Line
+	10000 4000 10000 5200
+Wire Wire Line
+	8190 4120 8190 4350
+Wire Wire Line
+	8190 5200 9390 5200
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D3922F8
+P 9390 5200
+F 0 "#FLG0102" H 9390 5275 50  0001 C CNN
+F 1 "PWR_FLAG" H 9390 5373 50  0000 C CNN
+F 2 "" H 9390 5200 50  0001 C CNN
+F 3 "~" H 9390 5200 50  0001 C CNN
+	1    9390 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 9390 5200
+Wire Wire Line
+	9390 5200 10000 5200
+Text Notes 10100 4170 0    50   ~ 0
+DC 2.1/5.5\n+ inside
+Text Notes 7920 5940 0    50   ~ 0
+all diodes 1N4151, ...\nresistors 0.125W\nDC barrel connector with plus inside
+$Comp
+L pspice:DIODE D6
+U 1 1 5D2BF192
+P 5510 4910
+F 0 "D6" H 5510 5175 50  0000 C CNN
+F 1 "1N4151" H 5510 5084 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P12.70mm_Horizontal" H 5510 4910 50  0001 C CNN
+F 3 "~" H 5510 4910 50  0001 C CNN
+	1    5510 4910
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8190 4350
+Wire Wire Line
+	8190 4350 8190 4480
+Text Notes 3390 5690 0    50   ~ 0
+developed based on: \nhttp://hackerschicken.eu/electronics/RS232_AVR_programmer.pdf
+$EndSCHEMATC
