@@ -4,7 +4,9 @@ programatory open-source dla układów AVR
 W drzewie katalogu:
 - bsd, chyba najprostszy programator układów AVR, wykorzystujący port LPT komputera PC,
 - dasa, programator układów AVR wykorzystujący port szeregowy RS232,
-- usbasp, układ wykorzystujący port USB, chyba najbardziej popularny i rozpowszechniony.
+- usbasp, układ wykorzystujący port USB, chyba najbardziej popularny i rozpowszechniony,
+- dasa-3, programator układów AVR wykorzystujący port szeregowy RS232.
+
 
 Wszystkie programatory obsługiwane są przez program AVR Dude (avrdude).
 
