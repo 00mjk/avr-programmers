@@ -348,4 +348,16 @@ $EndComp
 Connection ~ 4200 4370
 Wire Wire Line
 	4200 4370 4680 4370
+Text Label 3820 2830 0    50   ~ 0
+DTR
+Text Label 3820 2930 0    50   ~ 0
+CTS
+Text Label 3820 3030 0    50   ~ 0
+TxD
+Text Label 3820 3130 0    50   ~ 0
+RTS
+Text Label 3810 2630 0    50   ~ 0
+GND
+Text Notes 6490 4920 0    50   ~ 0
+programmed avr powered form own circuit
 $EndSCHEMATC
