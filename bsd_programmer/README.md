@@ -1,0 +1,15 @@
+# 'bsd' parallel programmer
+
+Hi! Here you have a KiCad project of classic, a bsd parallel programmer. It is simply, cheap and works with AVRDude.
+
+![pict 1](https://github.com/majsterklepka/avr-programmers/bsd_programmer/raw/master/drwaings/bsd_programmer.png)
+
+here we have a schematics sheet
+
+![pict 2](https://github.com/majsterklepka/avr-programmers/bsd_programmer/raw/master/drawings/schematics.png)
+
+and ... PCB layout
+
+![pict 3](https://github.com/majsterklepka/avr-programmers/bsd_programmer/raw/master/drawings/bsd_programmer-brd.png)
+
+Have a fun with that project!

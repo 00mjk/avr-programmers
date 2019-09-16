@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:bsd_programmer-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -9,7 +9,7 @@ Title "avr bsd programmer"
 Date "2019-07-01"
 Rev "1.0"
 Comp "mgr inż. Paweł Sobótka"
-Comment1 "GNU GPLv3"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
