@@ -1,7 +1,7 @@
 # USBasp programmer
 avr-programmers
 
-![pict. 1](https://github.com/majsterklepka/raw/master/avr-programmers/usbasp/drawings/usbasp.png "PCB")
+![pict. 1](https://github.com/majsterklepka/avr-programmers/raw/master/usbasp/drawings/usbasp.png "PCB")
 
 Perhaps, most popular programmer at the World. Build with AVR chips and a few others components. Work fine with AVRDude, under Linux, of course. Here we have a schematic sheet of this electronic circuit:
 
