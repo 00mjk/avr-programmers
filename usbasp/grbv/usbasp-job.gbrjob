@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.2-1.fc30"
+      "Version":     "5.1.4-3.fc30"
     },
-    "CreationDate":  "2019-07-08T04:49:55+02:00"
+    "CreationDate":  "2019-09-17T14:14:00+02:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "usbasp",
       "GUID": "75736261-7370-42e6-9b69-6361645f7063",
-      "Revision": "1.0"
+      "Revision": "2.0"
     },
     "Size":
     {
@@ -32,9 +32,7 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.500,
-      "TrackToRegion":  0.508,
-      "RegionToRegion":  0.508
+      "MinLineWidth":  0.300
     }
   ],
   "FilesAttributes":
@@ -82,6 +80,11 @@
     {
       "Path":  "usbasp-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "usbasp-F_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Top",
       "FilePolarity":  "Positive"
     }
   ],
