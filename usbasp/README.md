@@ -13,6 +13,6 @@ Under folder [drawings](https://github.com/majsterklepka/avr-programmers/tree/ma
 
 At the end, have a fun with that project and be patient, because these project need that at all.
 
-I will be forgotten! Original firmware don't compile and I made some changes into source code, I think it will work!
+I will be forgotten! Original firmware doesn't compile anyway, make print errors and I made some changes into source code, I think it will work!
 
 _mgr inż. Paweł Sobótka (SQ7EQE)_
