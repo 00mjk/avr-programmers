@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/majsterklepka/Dokumenty/Kicad/dasa/dasa.sch)
-    (date "sob, 20 lip 2019, 19:11:43")
-    (tool "Eeschema 5.1.2-1.fc30")
+    (source /home/majsterklepka/git/avr-programmers/dasa/dasa.sch)
+    (date "czw, 19 wrz 2019, 16:12:27")
+    (tool "Eeschema 5.1.4-3.fc30")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "dasa avr programmer")
@@ -10,8 +10,8 @@
         (rev 1.0)
         (date 2019-07-20)
         (source dasa.sch)
-        (comment (number 1) (value ""))
-        (comment (number 2) (value ""))
+        (comment (number 1) (value http://hackerschicken.eu/electronics/RS232_AVR_programmer.pdf))
+        (comment (number 2) (value "developed based on:"))
         (comment (number 3) (value ""))
         (comment (number 4) (value "")))))
   (components
@@ -115,7 +115,7 @@
       (tstamp 5D2C0906))
     (comp (ref J3)
       (value +5V)
-      (footprint Connector_BarrelJack:BarrelJack_Horizontal)
+      (footprint Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_Coaxial_Power) (description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"))
       (sheetpath (names /) (tstamps /))

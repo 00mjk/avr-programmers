@@ -1,9 +1,9 @@
-(pcb /home/majsterklepka/Dokumenty/Kicad/dasa/dasa.dsn
+(pcb "/home/majsterklepka/git/avr-programmers/dasa/dasa.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "5.1.2-1.fc30")
+    (host_version "5.1.4-3.fc30")
   )
   (resolution um 10)
   (unit um)
@@ -33,14 +33,14 @@
     )
   )
   (placement
-    (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-      (place R4 151638 -77470 front 270 (PN 100))
-      (place R3 117856 -47498 front 0 (PN 3k3))
-      (place R2 117856 -52578 front 0 (PN 3k3))
-      (place R1 117856 -64516 front 0 (PN 3k3))
+    (component "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
+      (place J3 121310 -108180 front 270 (PN +5V))
     )
-    (component Connector_BarrelJack:BarrelJack_Horizontal
-      (place J3 115824 -103886 front 90 (PN +5V))
+    (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+      (place R4 151638 -74470 front 270 (PN 100))
+      (place R3 115724 -47498 front 0 (PN 3k3))
+      (place R2 115724 -53770.7 front 0 (PN 3k3))
+      (place R1 115724 -66516 front 0 (PN 3k3))
     )
     (component "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
       (place J2 137160 -110490 front 90 (PN "AVR-ISP-10"))
@@ -49,20 +49,47 @@
       (place J1 141986 -60706 front 90 (PN DB9_Male))
     )
     (component "Diode_THT:D_A-405_P12.70mm_Horizontal"
-      (place D8 115824 -89154 front 0 (PN 1N4151))
-      (place D7 132588 -89154 front 0 (PN 1N4151))
-      (place D6 116332 -77470 front 0 (PN 1N4151))
-      (place D5 132588 -77470 front 0 (PN 1N4151))
-      (place D4 115824 -84074 front 0 (PN 1N4151))
-      (place D3 132588 -83820 front 0 (PN 1N4151))
+      (place D8 115824 -89000.7 front 0 (PN 1N4151))
+      (place D7 132588 -89000.7 front 0 (PN 1N4151))
+      (place D6 115824 -74470 front 0 (PN 1N4151))
+      (place D5 132588 -74470 front 0 (PN 1N4151))
+      (place D4 115824 -81735.3 front 0 (PN 1N4151))
+      (place D3 132588 -81735.3 front 0 (PN 1N4151))
       (place D2 115824 -96266 front 0 (PN 1N4151))
-      (place D1 117856 -57912 front 0 (PN 1N4151))
+      (place D1 115824 -60143.3 front 0 (PN 1N4151))
     )
     (component Capacitor_THT:CP_Radial_D8.0mm_P2.50mm
-      (place C1 147828 -97790 front 0 (PN 10uF/16V))
+      (place C1 145188 -97790 front 0 (PN 10uF/16V))
     )
   )
   (library
+    (image "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
+      (outline (path signal 50  6000 1500  -6000 1500))
+      (outline (path signal 50  6000 -12500  6000 1500))
+      (outline (path signal 50  -6000 -12500  6000 -12500))
+      (outline (path signal 50  -6000 1500  -6000 -12500))
+      (outline (path signal 120  -1000 1300  1000 1300))
+      (outline (path signal 120  -5110 -12110  -5110 -9050))
+      (outline (path signal 120  5110 -12110  -5110 -12110))
+      (outline (path signal 120  5110 -9050  5110 -12110))
+      (outline (path signal 120  5110 1110  5110 -4950))
+      (outline (path signal 120  2300 1110  5110 1110))
+      (outline (path signal 120  -5110 1110  -2300 1110))
+      (outline (path signal 120  -5110 -4950  -5110 1110))
+      (outline (path signal 100  -5000 -12000  -5000 1000))
+      (outline (path signal 100  5000 -12000  -5000 -12000))
+      (outline (path signal 100  5000 1000  5000 -12000))
+      (outline (path signal 100  1000 1000  5000 1000))
+      (outline (path signal 100  0 0  1000 1000))
+      (outline (path signal 100  -1000 1000  0 0))
+      (outline (path signal 100  -5000 1000  -1000 1000))
+      (pin Oval[A]Pad_2000x3500_um MP 4500 -7000)
+      (pin Oval[A]Pad_2000x3500_um MP@1 -4500 -7000)
+      (pin Oval[A]Pad_3300x2000_um 2 0 -6000)
+      (pin Rect[A]Pad_4000x2000_um 1 0 0)
+      (keepout "" (circle F.Cu 1600 0 -9000))
+      (keepout "" (circle B.Cu 1600 0 -9000))
+    )
     (image Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
       (outline (path signal 50  11210 1500  -1050 1500))
       (outline (path signal 50  11210 -1500  11210 1500))
@@ -82,38 +109,6 @@
       (outline (path signal 100  1930 1250  1930 -1250))
       (pin Oval[A]Pad_1600x1600_um 2 10160 0)
       (pin Round[A]Pad_1600_um 1 0 0)
-    )
-    (image Connector_BarrelJack:BarrelJack_Horizontal
-      (outline (path signal 100  0 4500  -13700 4500))
-      (outline (path signal 100  800 -4500  800 3750))
-      (outline (path signal 100  -13700 -4500  800 -4500))
-      (outline (path signal 100  -13700 4500  -13700 -4500))
-      (outline (path signal 100  -10200 4500  -10200 -4500))
-      (outline (path signal 120  900 4600  900 2000))
-      (outline (path signal 120  -13800 4600  900 4600))
-      (outline (path signal 120  900 -4600  -1000 -4600))
-      (outline (path signal 120  900 -1900  900 -4600))
-      (outline (path signal 120  -13800 -4600  -13800 4600))
-      (outline (path signal 120  -5000 -4600  -13800 -4600))
-      (outline (path signal 50  -14000 -4750  -14000 4750))
-      (outline (path signal 50  -5000 -4750  -14000 -4750))
-      (outline (path signal 50  -5000 -6750  -5000 -4750))
-      (outline (path signal 50  -1000 -6750  -5000 -6750))
-      (outline (path signal 50  -1000 -4750  -1000 -6750))
-      (outline (path signal 50  1000 -4750  -1000 -4750))
-      (outline (path signal 50  1000 -2000  1000 -4750))
-      (outline (path signal 50  2000 -2000  1000 -2000))
-      (outline (path signal 50  2000 2000  2000 -2000))
-      (outline (path signal 50  1000 2000  2000 2000))
-      (outline (path signal 50  1000 4500  1000 2000))
-      (outline (path signal 50  1000 4750  -14000 4750))
-      (outline (path signal 50  1000 4500  1000 4750))
-      (outline (path signal 120  50 4800  1100 4800))
-      (outline (path signal 120  1100 3750  1100 4800))
-      (outline (path signal 100  -3.213 4505.43  800 3750))
-      (pin RoundRect[A]Pad_3500x3500_878.33_um 3 -3000 -4700)
-      (pin RoundRect[A]Pad_3000x3500_752.854_um 2 -6000 0)
-      (pin Rect[A]Pad_3500x3500_um 1 0 0)
     )
     (image "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
       (outline (path signal 120  -3655 5600  -1115 5600))
@@ -463,59 +458,19 @@
       (shape (path B.Cu 1800  0 0  0 0))
       (attach off)
     )
-    (padstack RoundRect[A]Pad_3500x3500_878.33_um
-      (shape (polygon F.Cu 0  1027.52 1739.99  1175.41 1700.36  1314.16 1635.66  1439.58 1547.84
-            1547.84 1439.58  1635.66 1314.16  1700.36 1175.41  1739.99 1027.52
-            1753.33 875  1753.33 -875  1739.99 -1027.52  1700.36 -1175.41
-            1635.66 -1314.16  1547.84 -1439.58  1439.58 -1547.84  1314.16 -1635.66
-            1175.41 -1700.36  1027.52 -1739.99  875 -1753.33  -875 -1753.33
-            -1027.52 -1739.99  -1175.41 -1700.36  -1314.16 -1635.66  -1439.58 -1547.84
-            -1547.84 -1439.58  -1635.66 -1314.16  -1700.36 -1175.41  -1739.99 -1027.52
-            -1753.33 -875  -1753.33 875  -1739.99 1027.52  -1700.36 1175.41
-            -1635.66 1314.16  -1547.84 1439.58  -1439.58 1547.84  -1314.16 1635.66
-            -1175.41 1700.36  -1027.52 1739.99  -875 1753.33  875 1753.33
-            1027.52 1739.99))
-      (shape (polygon B.Cu 0  1027.52 1739.99  1175.41 1700.36  1314.16 1635.66  1439.58 1547.84
-            1547.84 1439.58  1635.66 1314.16  1700.36 1175.41  1739.99 1027.52
-            1753.33 875  1753.33 -875  1739.99 -1027.52  1700.36 -1175.41
-            1635.66 -1314.16  1547.84 -1439.58  1439.58 -1547.84  1314.16 -1635.66
-            1175.41 -1700.36  1027.52 -1739.99  875 -1753.33  -875 -1753.33
-            -1027.52 -1739.99  -1175.41 -1700.36  -1314.16 -1635.66  -1439.58 -1547.84
-            -1547.84 -1439.58  -1635.66 -1314.16  -1700.36 -1175.41  -1739.99 -1027.52
-            -1753.33 -875  -1753.33 875  -1739.99 1027.52  -1700.36 1175.41
-            -1635.66 1314.16  -1547.84 1439.58  -1439.58 1547.84  -1314.16 1635.66
-            -1175.41 1700.36  -1027.52 1739.99  -875 1753.33  875 1753.33
-            1027.52 1739.99))
+    (padstack Oval[A]Pad_3300x2000_um
+      (shape (path F.Cu 2000  -650 0  650 0))
+      (shape (path B.Cu 2000  -650 0  650 0))
       (attach off)
     )
-    (padstack RoundRect[A]Pad_3000x3500_752.854_um
-      (shape (polygon F.Cu 0  880.732 1741.42  1007.49 1707.45  1126.43 1651.99  1233.92 1576.72
-            1326.72 1483.92  1401.99 1376.43  1457.45 1257.49  1491.42 1130.73
-            1502.85 1000  1502.85 -1000  1491.42 -1130.73  1457.45 -1257.49
-            1401.99 -1376.43  1326.72 -1483.92  1233.92 -1576.72  1126.43 -1651.99
-            1007.49 -1707.45  880.732 -1741.42  750 -1752.85  -750 -1752.85
-            -880.732 -1741.42  -1007.49 -1707.45  -1126.43 -1651.99  -1233.92 -1576.72
-            -1326.72 -1483.92  -1401.99 -1376.43  -1457.45 -1257.49  -1491.42 -1130.73
-            -1502.85 -1000  -1502.85 1000  -1491.42 1130.73  -1457.45 1257.49
-            -1401.99 1376.43  -1326.72 1483.92  -1233.92 1576.72  -1126.43 1651.99
-            -1007.49 1707.45  -880.732 1741.42  -750 1752.85  750 1752.85
-            880.732 1741.42))
-      (shape (polygon B.Cu 0  880.732 1741.42  1007.49 1707.45  1126.43 1651.99  1233.92 1576.72
-            1326.72 1483.92  1401.99 1376.43  1457.45 1257.49  1491.42 1130.73
-            1502.85 1000  1502.85 -1000  1491.42 -1130.73  1457.45 -1257.49
-            1401.99 -1376.43  1326.72 -1483.92  1233.92 -1576.72  1126.43 -1651.99
-            1007.49 -1707.45  880.732 -1741.42  750 -1752.85  -750 -1752.85
-            -880.732 -1741.42  -1007.49 -1707.45  -1126.43 -1651.99  -1233.92 -1576.72
-            -1326.72 -1483.92  -1401.99 -1376.43  -1457.45 -1257.49  -1491.42 -1130.73
-            -1502.85 -1000  -1502.85 1000  -1491.42 1130.73  -1457.45 1257.49
-            -1401.99 1376.43  -1326.72 1483.92  -1233.92 1576.72  -1126.43 1651.99
-            -1007.49 1707.45  -880.732 1741.42  -750 1752.85  750 1752.85
-            880.732 1741.42))
+    (padstack Oval[A]Pad_2000x3500_um
+      (shape (path F.Cu 2000  0 -750  0 750))
+      (shape (path B.Cu 2000  0 -750  0 750))
       (attach off)
     )
-    (padstack Rect[A]Pad_3500x3500_um
-      (shape (rect F.Cu -1750 -1750 1750 1750))
-      (shape (rect B.Cu -1750 -1750 1750 1750))
+    (padstack Rect[A]Pad_4000x2000_um
+      (shape (rect F.Cu -2000 -1000 2000 1000))
+      (shape (rect B.Cu -2000 -1000 2000 1000))
       (attach off)
     )
     (padstack Rect[A]Pad_1600x1600_um
