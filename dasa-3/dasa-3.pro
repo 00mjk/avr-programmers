@@ -1,4 +1,4 @@
-update=śro, 14 sie 2019, 03:13:09
+update=pią, 20 wrz 2019, 15:26:42
 version=1
 last_client=kicad
 [general]
@@ -253,7 +253,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../../../Obrazy/dasa/
+PlotDirectoryName=drawings/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
