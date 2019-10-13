@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.4-3.fc30"
     },
-    "CreationDate":  "2019-09-20T15:21:54+02:00"
+    "CreationDate":  "2019-10-13T14:01:56+02:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "dasa-3",
       "GUID": "64617361-2d33-42e6-9b69-6361645f7063",
-      "Revision": "0.5"
+      "Revision": "1.0"
     },
     "Size":
     {
@@ -45,16 +45,6 @@
     {
       "Path":  "dasa-3-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "dasa-3-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "dasa-3-B_Paste.gbr",
-      "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
@@ -95,10 +85,6 @@
       "Notes":  "Layer F.SilkS"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer F.Paste"
-    },
-    {
       "Type":  "SolderMask",
       "Notes":  "Layer F.Mask"
     },
@@ -118,10 +104,6 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
-    },
-    {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer B.Paste"
     },
     {
       "Type":  "Legend",

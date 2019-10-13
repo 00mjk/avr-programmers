@@ -19,6 +19,6 @@ I create project of PCB, all things I done with use of KiCad. Below, is that pic
 
 ![pict. 2](https://github.com/majsterklepka/avr-programmers/raw/master/dasa-3/drawings/dasa-3-brd.png "2D PCB View")
 
-Project files, included Gerber files are inside this folder. I will be very glad if you use it for yourself satisfaction or in yours jobs. Feel free and share them with your friends 
+Project files, included Gerber files are inside this folder. I will be very glad if you use it for yourself satisfaction or in yours jobs. Feel free and share them with your friends. 
 
 _mgr inż. Paweł Sobótka (SQ7EQE)_

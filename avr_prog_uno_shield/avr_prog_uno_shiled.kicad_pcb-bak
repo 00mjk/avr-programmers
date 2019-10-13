@@ -15,7 +15,8 @@
     (date 2019-08-24)
     (rev 1.0)
     (company "mgr inż. Paweł Sobótka")
-    (comment 1 "Arduino Une rev3")
+    (comment 1 "Arduino Uno rev3")
+    (comment 2 "GNU GPLv3")
   )
 
   (layers

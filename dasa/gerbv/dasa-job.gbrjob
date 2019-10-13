@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.4-3.fc30"
     },
-    "CreationDate":  "2019-09-19T16:23:22+02:00"
+    "CreationDate":  "2019-10-13T14:02:28+02:00"
   },
   "GeneralSpecs":
   {
@@ -48,16 +48,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "dasa-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "dasa-B_Paste.gbr",
-      "FileFunction":  "SolderPaste,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "dasa-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
@@ -95,10 +85,6 @@
       "Notes":  "Layer F.SilkS"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer F.Paste"
-    },
-    {
       "Type":  "SolderMask",
       "Notes":  "Layer F.Mask"
     },
@@ -118,10 +104,6 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
-    },
-    {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer B.Paste"
     },
     {
       "Type":  "Legend",

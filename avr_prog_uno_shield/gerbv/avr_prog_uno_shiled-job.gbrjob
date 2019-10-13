@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.4-3.fc30"
     },
-    "CreationDate":  "2019-09-14T16:13:18+02:00"
+    "CreationDate":  "2019-10-13T13:42:18+02:00"
   },
   "GeneralSpecs":
   {
@@ -58,8 +58,23 @@
       "FilePolarity":  "Positive"
     },
     {
+      "Path":  "avr_prog_uno_shiled-F_Mask.gbr",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "avr_prog_uno_shiled-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
       "Path":  "avr_prog_uno_shiled-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "avr_prog_uno_shiled-F_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Top",
       "FilePolarity":  "Positive"
     }
   ],
@@ -68,6 +83,10 @@
     {
       "Type":  "Legend",
       "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
     },
     {
       "Type":  "Copper",
@@ -81,6 +100,10 @@
     {
       "Type":  "Copper",
       "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
     },
     {
       "Type":  "Legend",

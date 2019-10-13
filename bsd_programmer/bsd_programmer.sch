@@ -1588,4 +1588,15 @@ Text Notes 2210 5830 0    394  ~ 0
 AVR "BSD" Programmer
 Text Notes 7120 2690 0    197  ~ 0
 Centronics pinouts
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DA31830
+P 8050 4350
+F 0 "H1" H 8150 4396 50  0000 L CNN
+F 1 "M2.5" H 8150 4305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 8050 4350 50  0001 C CNN
+F 3 "~" H 8050 4350 50  0001 C CNN
+	1    8050 4350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

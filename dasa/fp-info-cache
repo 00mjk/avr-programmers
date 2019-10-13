@@ -1,4 +1,4 @@
-16279450349116835
+16281019417793835
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72897,3 +72897,10 @@ Through hole IDC box header THT 2x05 2.54mm double row
 0
 10
 10
+connectors-mylibrary
+con_pingold_9_P2.54
+connector for wire
+connector, wire
+0
+9
+9
