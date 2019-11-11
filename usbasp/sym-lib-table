@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name avr-isp-10)(type Legacy)(uri ${KIPRJMOD}/avr-isp-10.lib)(options "")(descr ""))
+  (lib (name usbasp)(type Legacy)(uri ${KIPRJMOD}/usbasp.lib)(options "")(descr ""))
 )

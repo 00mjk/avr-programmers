@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name usbasp)(type KiCad)(uri ${KIPRJMOD}/usbasp.pretty)(options "")(descr ""))
+)

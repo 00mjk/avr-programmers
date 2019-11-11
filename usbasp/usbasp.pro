@@ -1,4 +1,4 @@
-update=wto, 17 wrz 2019, 14:34:45
+update=pon, 11 lis 2019, 15:40:52
 version=1
 last_client=kicad
 [general]
@@ -248,7 +248,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=+5V
 Clearance=0.2
-TrackWidth=0.3
+TrackWidth=0.35
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -281,7 +281,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=drawings/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
